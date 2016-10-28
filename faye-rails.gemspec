@@ -15,16 +15,16 @@ Gem::Specification.new do |s|
   s.add_dependency 'faye', '1.1.2'
   s.add_dependency 'eventmachine', '~> 1.2.0'
 
-  s.add_development_dependency "rails", "~> 3.1"
-  s.add_development_dependency "sqlite3"
-  s.add_development_dependency "rspec"
+  s.add_development_dependency 'rails', "~> 3.1"
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-core'
   s.add_development_dependency 'rspec-mocks'
   s.add_development_dependency 'rspec-expectations'
-  s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "database_cleaner"
-  s.add_development_dependency "mocha"
-  s.add_development_dependency "thin"
+  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'database_cleaner'
+  s.add_development_dependency 'mocha'
+  s.add_development_dependency 'thin'
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "guard-bundler"
   s.add_development_dependency 'rb-fsevent', ['~> 0.9.1']
