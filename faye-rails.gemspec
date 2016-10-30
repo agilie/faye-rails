@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Faye bindings for Rails'
   s.license     = 'MIT'
 
-  s.add_dependency 'faye', '1.1.2'
+  s.add_dependency 'faye', '~> 1.2'
   s.add_dependency 'eventmachine', '~> 1.2.0'
 
   s.add_development_dependency 'rails', '~> 4.2'
