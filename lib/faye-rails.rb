@@ -39,5 +39,4 @@ module FayeRails
       servers.first.get_client
     end
   end
-
 end
